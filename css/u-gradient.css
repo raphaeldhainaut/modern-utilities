@@ -1,0 +1,461 @@
+/*
+ *   ModernWeb <http://modernweb.azurewebsites.net/>
+ *   Copyright (C) 2014 Raphael Dhainaut
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU LESSER GENERAL PUBLIC LICENSE for more details.
+ *
+ *  You should have received a copy of the GNU LESSER GENERAL PUBLIC LICENSE
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/* ==========================================================================
+    Gradient
+   ========================================================================== */
+.u-bg-gd-teal-light {
+  background-image: linear-gradient(right, #00A0B1, #00b7cb) !important;
+}
+
+.u-bg-gd-teal-dark {
+  background-image: linear-gradient(right, #008299, #0098b3) !important;
+}
+
+.u-bg-gd-green-light {
+  background-image: linear-gradient(right, #13AE40, #0bd044) !important;
+}
+
+.u-bg-gd-green-dark {
+  background-image: linear-gradient(right, #00A400, #00be00) !important;
+}
+
+.u-bg-gd-blue-lighter {
+  background-image: linear-gradient(right, #4DB0F4, #5dbcfe) !important;
+}
+
+.u-bg-gd-blue-light {
+  background-image: linear-gradient(right, #3498DB, #3fa5ea) !important;
+}
+
+.u-bg-gd-blue-dark {
+  background-image: linear-gradient(right, #2672EC, #337ff9) !important;
+}
+
+.u-bg-gd-blue-darker {
+  background-image: linear-gradient(right, #094AB2, #0052d5) !important;
+}
+
+.u-bg-gd-purple-light {
+  background-image: linear-gradient(right, #8C0095, #a400af) !important;
+}
+
+.u-bg-gd-purple-dark {
+  background-image: linear-gradient(right, #5133AB, #542ccb) !important;
+}
+
+.u-bg-gd-yellow-dark {
+  background-image: linear-gradient(right, #F1C40F, #fed11c) !important;
+}
+
+.u-bg-gd-orange-light {
+  background-image: linear-gradient(right, #F39C12, #ffa920) !important;
+}
+
+.u-bg-gd-orange-dark {
+  background-image: linear-gradient(right, #E67E22, #f48b2e) !important;
+}
+
+.u-bg-gd-orange-darker {
+  background-image: linear-gradient(right, #D35400, #ed5e00) !important;
+}
+
+.u-bg-gd-red-light {
+  background-image: linear-gradient(right, #D01616, #f30c0c) !important;
+}
+
+.u-bg-gd-red-dark {
+  background-image: linear-gradient(right, #B61100, #d01300) !important;
+}
+
+.u-bg-gd-lightgrey-light {
+  background-image: linear-gradient(right, #ECF0F1, #fafcfc) !important;
+}
+
+.u-bg-gd-lightgrey-dark {
+  background-image: linear-gradient(right, #BDC3C7, #c6d1d8) !important;
+}
+
+.u-bg-gd-grey-light {
+  background-image: linear-gradient(right, #95A5A6, #9ab8ba) !important;
+}
+
+.u-bg-gd-grey-dark {
+  background-image: linear-gradient(right, #7F8C8D, #82a1a4) !important;
+}
+
+.u-bg-gd-darkgrey-light {
+  background-image: linear-gradient(right, #34495E, #355677) !important;
+}
+
+.u-bg-gd-darkgrey-dark {
+  background-image: linear-gradient(right, #2C3E50, #2e4b68) !important;
+}
+
+/* Gradient direction
+   ========================================================================== */
+.u-bg-gd-teal-light-to-left {
+  background-image: linear-gradient(left, #00A0B1, #00b7cb) !important;
+}
+
+.u-bg-gd-teal-dark-to-left {
+  background-image: linear-gradient(left, #008299, #0098b3) !important;
+}
+
+.u-bg-gd-green-light-to-left {
+  background-image: linear-gradient(left, #13AE40, #0bd044) !important;
+}
+
+.u-bg-gd-green-dark-to-left {
+  background-image: linear-gradient(left, #00A400, #00be00) !important;
+}
+
+.u-bg-gd-blue-lighter-to-left {
+  background-image: linear-gradient(left, #4DB0F4, #5dbcfe) !important;
+}
+
+.u-bg-gd-blue-light-to-left {
+  background-image: linear-gradient(left, #3498DB, #3fa5ea) !important;
+}
+
+.u-bg-gd-blue-dark-to-left {
+  background-image: linear-gradient(left, #2672EC, #337ff9) !important;
+}
+
+.u-bg-gd-blue-darker-to-left {
+  background-image: linear-gradient(left, #094AB2, #0052d5) !important;
+}
+
+.u-bg-gd-purple-light-to-left {
+  background-image: linear-gradient(left, #8C0095, #a400af) !important;
+}
+
+.u-bg-gd-purple-dark-to-left {
+  background-image: linear-gradient(left, #5133AB, #542ccb) !important;
+}
+
+.u-bg-gd-yellow-dark-to-left {
+  background-image: linear-gradient(left, #F1C40F, #fed11c) !important;
+}
+
+.u-bg-gd-orange-light-to-left {
+  background-image: linear-gradient(left, #F39C12, #ffa920) !important;
+}
+
+.u-bg-gd-orange-dark-to-left {
+  background-image: linear-gradient(left, #E67E22, #f48b2e) !important;
+}
+
+.u-bg-gd-orange-darker-to-left {
+  background-image: linear-gradient(left, #D35400, #ed5e00) !important;
+}
+
+.u-bg-gd-red-light-to-left {
+  background-image: linear-gradient(left, #D01616, #f30c0c) !important;
+}
+
+.u-bg-gd-red-dark-to-left {
+  background-image: linear-gradient(left, #B61100, #d01300) !important;
+}
+
+.u-bg-gd-lightgrey-light-to-left {
+  background-image: linear-gradient(left, #ECF0F1, #fafcfc) !important;
+}
+
+.u-bg-gd-lightgrey-dark-to-left {
+  background-image: linear-gradient(left, #BDC3C7, #c6d1d8) !important;
+}
+
+.u-bg-gd-grey-light-to-left {
+  background-image: linear-gradient(left, #95A5A6, #9ab8ba) !important;
+}
+
+.u-bg-gd-grey-dark-to-left {
+  background-image: linear-gradient(left, #7F8C8D, #82a1a4) !important;
+}
+
+.u-bg-gd-darkgrey-light-to-left {
+  background-image: linear-gradient(left, #34495E, #355677) !important;
+}
+
+.u-bg-gd-darkgrey-dark-to-left {
+  background-image: linear-gradient(left, #2C3E50, #2e4b68) !important;
+}
+
+.u-bg-gd-teal-light-to-right {
+  background-image: linear-gradient(right, #00A0B1, #00b7cb) !important;
+}
+
+.u-bg-gd-teal-dark-to-right {
+  background-image: linear-gradient(right, #008299, #0098b3) !important;
+}
+
+.u-bg-gd-green-light-to-right {
+  background-image: linear-gradient(right, #13AE40, #0bd044) !important;
+}
+
+.u-bg-gd-green-dark-to-right {
+  background-image: linear-gradient(right, #00A400, #00be00) !important;
+}
+
+.u-bg-gd-blue-lighter-to-right {
+  background-image: linear-gradient(right, #4DB0F4, #5dbcfe) !important;
+}
+
+.u-bg-gd-blue-light-to-right {
+  background-image: linear-gradient(right, #3498DB, #3fa5ea) !important;
+}
+
+.u-bg-gd-blue-dark-to-right {
+  background-image: linear-gradient(right, #2672EC, #337ff9) !important;
+}
+
+.u-bg-gd-blue-darker-to-right {
+  background-image: linear-gradient(right, #094AB2, #0052d5) !important;
+}
+
+.u-bg-gd-purple-light-to-right {
+  background-image: linear-gradient(right, #8C0095, #a400af) !important;
+}
+
+.u-bg-gd-purple-dark-to-right {
+  background-image: linear-gradient(right, #5133AB, #542ccb) !important;
+}
+
+.u-bg-gd-yellow-dark-to-right {
+  background-image: linear-gradient(right, #F1C40F, #fed11c) !important;
+}
+
+.u-bg-gd-orange-light-to-right {
+  background-image: linear-gradient(right, #F39C12, #ffa920) !important;
+}
+
+.u-bg-gd-orange-dark-to-right {
+  background-image: linear-gradient(right, #E67E22, #f48b2e) !important;
+}
+
+.u-bg-gd-orange-darker-to-right {
+  background-image: linear-gradient(right, #D35400, #ed5e00) !important;
+}
+
+.u-bg-gd-red-light-to-right {
+  background-image: linear-gradient(right, #D01616, #f30c0c) !important;
+}
+
+.u-bg-gd-red-dark-to-right {
+  background-image: linear-gradient(right, #B61100, #d01300) !important;
+}
+
+.u-bg-gd-lightgrey-light-to-right {
+  background-image: linear-gradient(right, #ECF0F1, #fafcfc) !important;
+}
+
+.u-bg-gd-lightgrey-dark-to-right {
+  background-image: linear-gradient(right, #BDC3C7, #c6d1d8) !important;
+}
+
+.u-bg-gd-grey-light-to-right {
+  background-image: linear-gradient(right, #95A5A6, #9ab8ba) !important;
+}
+
+.u-bg-gd-grey-dark-to-right {
+  background-image: linear-gradient(right, #7F8C8D, #82a1a4) !important;
+}
+
+.u-bg-gd-darkgrey-light-to-right {
+  background-image: linear-gradient(right, #34495E, #355677) !important;
+}
+
+.u-bg-gd-darkgrey-dark-to-right {
+  background-image: linear-gradient(right, #2C3E50, #2e4b68) !important;
+}
+
+.u-bg-gd-teal-light-to-top {
+  background-image: linear-gradient(top, #00A0B1, #00b7cb) !important;
+}
+
+.u-bg-gd-teal-dark-to-top {
+  background-image: linear-gradient(top, #008299, #0098b3) !important;
+}
+
+.u-bg-gd-green-light-to-top {
+  background-image: linear-gradient(top, #13AE40, #0bd044) !important;
+}
+
+.u-bg-gd-green-dark-to-top {
+  background-image: linear-gradient(top, #00A400, #00be00) !important;
+}
+
+.u-bg-gd-blue-lighter-to-top {
+  background-image: linear-gradient(top, #4DB0F4, #5dbcfe) !important;
+}
+
+.u-bg-gd-blue-light-to-top {
+  background-image: linear-gradient(top, #3498DB, #3fa5ea) !important;
+}
+
+.u-bg-gd-blue-dark-to-top {
+  background-image: linear-gradient(top, #2672EC, #337ff9) !important;
+}
+
+.u-bg-gd-blue-darker-to-top {
+  background-image: linear-gradient(top, #094AB2, #0052d5) !important;
+}
+
+.u-bg-gd-purple-light-to-top {
+  background-image: linear-gradient(top, #8C0095, #a400af) !important;
+}
+
+.u-bg-gd-purple-dark-to-top {
+  background-image: linear-gradient(top, #5133AB, #542ccb) !important;
+}
+
+.u-bg-gd-yellow-dark-to-top {
+  background-image: linear-gradient(top, #F1C40F, #fed11c) !important;
+}
+
+.u-bg-gd-orange-light-to-top {
+  background-image: linear-gradient(top, #F39C12, #ffa920) !important;
+}
+
+.u-bg-gd-orange-dark-to-top {
+  background-image: linear-gradient(top, #E67E22, #f48b2e) !important;
+}
+
+.u-bg-gd-orange-darker-to-top {
+  background-image: linear-gradient(top, #D35400, #ed5e00) !important;
+}
+
+.u-bg-gd-red-light-to-top {
+  background-image: linear-gradient(top, #D01616, #f30c0c) !important;
+}
+
+.u-bg-gd-red-dark-to-top {
+  background-image: linear-gradient(top, #B61100, #d01300) !important;
+}
+
+.u-bg-gd-lightgrey-light-to-top {
+  background-image: linear-gradient(top, #ECF0F1, #fafcfc) !important;
+}
+
+.u-bg-gd-lightgrey-dark-to-top {
+  background-image: linear-gradient(top, #BDC3C7, #c6d1d8) !important;
+}
+
+.u-bg-gd-grey-light-to-top {
+  background-image: linear-gradient(top, #95A5A6, #9ab8ba) !important;
+}
+
+.u-bg-gd-grey-dark-to-top {
+  background-image: linear-gradient(top, #7F8C8D, #82a1a4) !important;
+}
+
+.u-bg-gd-darkgrey-light-to-top {
+  background-image: linear-gradient(top, #34495E, #355677) !important;
+}
+
+.u-bg-gd-darkgrey-dark-to-top {
+  background-image: linear-gradient(top, #2C3E50, #2e4b68) !important;
+}
+
+.u-bg-gd-teal-light-to-bottom {
+  background-image: linear-gradient(bottom, #00A0B1, #00b7cb) !important;
+}
+
+.u-bg-gd-teal-dark-to-bottom {
+  background-image: linear-gradient(bottom, #008299, #0098b3) !important;
+}
+
+.u-bg-gd-green-light-to-bottom {
+  background-image: linear-gradient(bottom, #13AE40, #0bd044) !important;
+}
+
+.u-bg-gd-green-dark-to-bottom {
+  background-image: linear-gradient(bottom, #00A400, #00be00) !important;
+}
+
+.u-bg-gd-blue-lighter-to-bottom {
+  background-image: linear-gradient(bottom, #4DB0F4, #5dbcfe) !important;
+}
+
+.u-bg-gd-blue-light-to-bottom {
+  background-image: linear-gradient(bottom, #3498DB, #3fa5ea) !important;
+}
+
+.u-bg-gd-blue-dark-to-bottom {
+  background-image: linear-gradient(bottom, #2672EC, #337ff9) !important;
+}
+
+.u-bg-gd-blue-darker-to-bottom {
+  background-image: linear-gradient(bottom, #094AB2, #0052d5) !important;
+}
+
+.u-bg-gd-purple-light-to-bottom {
+  background-image: linear-gradient(bottom, #8C0095, #a400af) !important;
+}
+
+.u-bg-gd-purple-dark-to-bottom {
+  background-image: linear-gradient(bottom, #5133AB, #542ccb) !important;
+}
+
+.u-bg-gd-yellow-dark-to-bottom {
+  background-image: linear-gradient(bottom, #F1C40F, #fed11c) !important;
+}
+
+.u-bg-gd-orange-light-to-bottom {
+  background-image: linear-gradient(bottom, #F39C12, #ffa920) !important;
+}
+
+.u-bg-gd-orange-dark-to-bottom {
+  background-image: linear-gradient(bottom, #E67E22, #f48b2e) !important;
+}
+
+.u-bg-gd-orange-darker-to-bottom {
+  background-image: linear-gradient(bottom, #D35400, #ed5e00) !important;
+}
+
+.u-bg-gd-red-light-to-bottom {
+  background-image: linear-gradient(bottom, #D01616, #f30c0c) !important;
+}
+
+.u-bg-gd-red-dark-to-bottom {
+  background-image: linear-gradient(bottom, #B61100, #d01300) !important;
+}
+
+.u-bg-gd-lightgrey-light-to-bottom {
+  background-image: linear-gradient(bottom, #ECF0F1, #fafcfc) !important;
+}
+
+.u-bg-gd-lightgrey-dark-to-bottom {
+  background-image: linear-gradient(bottom, #BDC3C7, #c6d1d8) !important;
+}
+
+.u-bg-gd-grey-light-to-bottom {
+  background-image: linear-gradient(bottom, #95A5A6, #9ab8ba) !important;
+}
+
+.u-bg-gd-grey-dark-to-bottom {
+  background-image: linear-gradient(bottom, #7F8C8D, #82a1a4) !important;
+}
+
+.u-bg-gd-darkgrey-light-to-bottom {
+  background-image: linear-gradient(bottom, #34495E, #355677) !important;
+}
+
+.u-bg-gd-darkgrey-dark-to-bottom {
+  background-image: linear-gradient(bottom, #2C3E50, #2e4b68) !important;
+}

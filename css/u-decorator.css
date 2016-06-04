@@ -1,0 +1,60 @@
+/*
+ *   ModernWeb <http://modernweb.azurewebsites.net/>
+ *   Copyright (C) 2014 Raphael Dhainaut
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU LESSER GENERAL PUBLIC LICENSE for more details.
+ *
+ *  You should have received a copy of the GNU LESSER GENERAL PUBLIC LICENSE
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/* ==========================================================================
+   Decorator
+   ========================================================================== */
+/* Background image
+   ========================================================================== */
+.u-bg-image.u-fill {
+  background-size: auto auto !important;
+}
+.u-bg-image.u-fit {
+  background-size: 100% auto !important;
+}
+.u-bg-image.u-stretch {
+  background-size: 100% 100% !important;
+}
+.u-bg-image.u-center {
+  background-position: center center !important;
+}
+
+/* Transform
+   ========================================================================== */
+.u-rotate-90 {
+  transform: rotate(90deg) !important;
+}
+
+.u-rotate-180 {
+  transform: rotate(180deg) !important;
+}
+
+.u-rotate-270 {
+  transform: rotate(270deg) !important;
+}
+
+.u-rotate-360 {
+  transform: rotate(360deg) !important;
+}
+
+.u-flip-horizontal {
+  transform: scaleX(-1) !important;
+}
+
+.u-flip-vertical {
+  transform: scaleY(-1) !important;
+}
