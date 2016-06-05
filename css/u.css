@@ -1845,6 +1845,10 @@
   padding: 0;
 }
 
+.u-list .u-unstyled {
+  list-style-type: none;
+}
+
 /*
  *   ModernWeb <http://modernweb.azurewebsites.net/>
  *   Copyright (C) 2014 Raphael Dhainaut
