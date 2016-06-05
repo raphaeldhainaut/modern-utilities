@@ -86,7 +86,7 @@
   float: right !important;
 }
 
-.u-pull-fix:after,
+.u-pull-clear:after,
 .u-clearfix:after {
   content: "";
   display: table;
