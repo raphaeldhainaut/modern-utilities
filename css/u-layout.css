@@ -442,6 +442,6 @@
   padding: 0;
 }
 
-.u-list .u-unstyled {
+.u-list.u-unstyled {
   list-style-type: none;
 }
