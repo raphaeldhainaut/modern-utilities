@@ -443,5 +443,5 @@
 }
 
 .u-list.u-unstyled {
-  list-style-type: none;
+  list-style-type: none !important;
 }
