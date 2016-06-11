@@ -1,5 +1,6 @@
 {
   "name": "modern-utilities",
+  "version": "0.2.2",
   "description": "A set of modern css class (utilities) that you can use in every Web project",
   "authors": [
     "Raphael Dhainaut <raphaeldhainaut@outlook.com>"
@@ -13,6 +14,10 @@
   ],
   "license": "http://modernweb.azurewebsites.net/license",
   "homepage": "http://modernweb.azurewebsites.net/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaeldhainaut/modern-utilities.git"
+  },
   "dependencies": {
   },
   "devDependencies": {
