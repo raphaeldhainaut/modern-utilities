@@ -807,6 +807,40 @@
 /* ==========================================================================
    Decorator
    ========================================================================== */
+/* Border
+   ========================================================================== */
+.u-bd-0 {
+  border: 0 !important;
+}
+
+.u-bd-top-0 {
+  border-top: 0 !important;
+}
+
+.u-bd-right-0 {
+  border-right: 0 !important;
+}
+
+.u-bd-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.u-bd-left-0 {
+  border-left: 0 !important;
+}
+
+.u-rounded {
+  border-radius: 0.25rem !important;
+}
+
+.u-rounded-0 {
+  border-radius: 0 !important;
+}
+
+.u-rounded-circle {
+  border-radius: 50% !important;
+}
+
 /* Background image
    ========================================================================== */
 .u-bg-image.u-fill {
@@ -1424,6 +1458,20 @@
 /* ==========================================================================
    Layout
    ========================================================================== */
+/* Display
+   ========================================================================== */
+.u-inline {
+  display: inline !important;
+}
+
+.u-block {
+  display: block !important;
+}
+
+.u-inline-block {
+  display: inline-block !important;
+}
+
 /* Show <> Hide
    ========================================================================== */
 .u-show {
