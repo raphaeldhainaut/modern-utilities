@@ -47,6 +47,14 @@
   font-size: xx-large !important;
 }
 
+.u-text-smaller {
+  font-size: smaller !important;
+}
+
+.u-text-larger {
+  font-size: larger !important;
+}
+
 /* Alignment
    ========================================================================== */
 .u-text-left {
@@ -65,8 +73,12 @@
   text-align: justify !important;
 }
 
-.u-text-justify-all {
-  text-align: justify-all !important;
+.u-text-start {
+  text-align: start !important;
+}
+
+.u-text-end {
+  text-align: end !important;
 }
 
 /* Overflow
@@ -74,10 +86,6 @@
 .u-text-ellipsis {
   white-space: nowrap !important;
   overflow: hidden !important;
-  -webkit-text-overflow: ellipsis !important;
-  -moz-text-overflow: ellipsis !important;
-  -ms-text-overflow: ellipsis !important;
-  -o-text-overflow: ellipsis !important;
   text-overflow: ellipsis !important;
   max-width: 100% !important;
 }

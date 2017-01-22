@@ -2255,6 +2255,7 @@
 
 /* Flex
    ========================================================================== */
+/* Flex direction */
 .u-flex.u-row {
   flex-direction: row !important;
 }
@@ -2271,6 +2272,7 @@
   flex-direction: column-reverse !important;
 }
 
+/* Flex wrap */
 .u-flex.u-wrap {
   flex-wrap: wrap !important;
 }
@@ -2283,6 +2285,7 @@
   flex-wrap: wrap-reverse !important;
 }
 
+/* Flex content align */
 .u-flex.u-content-start {
   justify-content: flex-start !important;
 }
@@ -2299,6 +2302,7 @@
   justify-content: space-between !important;
 }
 
+/* Flex align */
 .u-flex.u-self-start {
   align-self: flex-start !important;
 }
@@ -2315,6 +2319,7 @@
   align-self: baseline !important;
 }
 
+/* Flex items align */
 .u-flex.u-items-start {
   align-items: flex-start !important;
 }
@@ -2331,6 +2336,7 @@
   align-items: baseline !important;
 }
 
+/* Flex order */
 .u-flex .u-order-first {
   order: -1 !important;
 }
@@ -2548,6 +2554,14 @@
   font-size: xx-large !important;
 }
 
+.u-text-smaller {
+  font-size: smaller !important;
+}
+
+.u-text-larger {
+  font-size: larger !important;
+}
+
 /* Alignment
    ========================================================================== */
 .u-text-left {
@@ -2566,8 +2580,12 @@
   text-align: justify !important;
 }
 
-.u-text-justify-all {
-  text-align: justify-all !important;
+.u-text-start {
+  text-align: start !important;
+}
+
+.u-text-end {
+  text-align: end !important;
 }
 
 /* Overflow
@@ -2575,10 +2593,6 @@
 .u-text-ellipsis {
   white-space: nowrap !important;
   overflow: hidden !important;
-  -webkit-text-overflow: ellipsis !important;
-  -moz-text-overflow: ellipsis !important;
-  -ms-text-overflow: ellipsis !important;
-  -o-text-overflow: ellipsis !important;
   text-overflow: ellipsis !important;
   max-width: 100% !important;
 }
