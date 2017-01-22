@@ -2113,15 +2113,15 @@
 
 /* Float
    ========================================================================== */
-.u-pull-left {
+.u-float-left {
   float: left !important;
 }
 
-.u-pull-right {
+.u-float-right {
   float: right !important;
 }
 
-.u-pull-clear:after,
+.u-float-clear:after,
 .u-clearfix:after {
   content: "";
   display: table;
