@@ -20,92 +20,92 @@
 /* Size
    ========================================================================== */
 .u-text-xx-small {
-  font-size: xx-small !important;
+    font-size: xx-small !important;
 }
 
 .u-text-x-small {
-  font-size: x-small !important;
+    font-size: x-small !important;
 }
 
 .u-text-small {
-  font-size: small !important;
+    font-size: small !important;
 }
 
 .u-text-medium {
-  font-size: medium !important;
+    font-size: medium !important;
 }
 
 .u-text-large {
-  font-size: large !important;
+    font-size: large !important;
 }
 
 .u-text-x-large {
-  font-size: x-large !important;
+    font-size: x-large !important;
 }
 
 .u-text-xx-large {
-  font-size: xx-large !important;
+    font-size: xx-large !important;
 }
 
 .u-text-smaller {
-  font-size: smaller !important;
+    font-size: smaller !important;
 }
 
 .u-text-larger {
-  font-size: larger !important;
+    font-size: larger !important;
 }
 
 /* Alignment
    ========================================================================== */
 .u-text-left {
-  text-align: left !important;
+    text-align: left !important;
 }
 
 .u-text-right {
-  text-align: right !important;
+    text-align: right !important;
 }
 
 .u-text-center {
-  text-align: center !important;
+    text-align: center !important;
 }
 
 .u-text-justify {
-  text-align: justify !important;
+    text-align: justify !important;
 }
 
 .u-text-start {
-  text-align: start !important;
+    text-align: start !important;
 }
 
 .u-text-end {
-  text-align: end !important;
+    text-align: end !important;
 }
 
 /* Overflow
    ========================================================================== */
 .u-text-ellipsis {
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  max-width: 100% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
 }
 
 .u-text-nowrap {
-  white-space: nowrap !important;
+    white-space: nowrap !important;
 }
 
 /* Transformation
    ========================================================================== */
 .u-text-lowercase {
-  text-transform: lowercase !important;
+    text-transform: lowercase !important;
 }
 
 .u-text-uppercase {
-  text-transform: uppercase !important;
+    text-transform: uppercase !important;
 }
 
 .u-text-capitalize {
-  text-transform: capitalize !important;
+    text-transform: capitalize !important;
 }
 
 /*# sourceMappingURL=u-text.css.map */

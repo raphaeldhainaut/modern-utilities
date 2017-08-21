@@ -18,17 +18,15 @@
    Animate
    ========================================================================== */
 .u-animation-reverse {
-  animation-direction: reverse !important;
+    animation-direction: reverse !important;
 }
 
 .u-animation-play {
-  -webkit-animation-play-state: running !important;
-  animation-play-state: running !important;
+    animation-play-state: running !important;
 }
 
 .u-animation-pause {
-  -webkit-animation-play-state: paused !important;
-  animation-play-state: paused !important;
+    animation-play-state: paused !important;
 }
 
 /*# sourceMappingURL=u-animate.css.map */
