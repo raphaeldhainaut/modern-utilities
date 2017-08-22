@@ -19,8 +19,10 @@
    ========================================================================== */
 /* Display
    ========================================================================== */
-.u-hidden-xs-up {
-    display: none !important;
+@media (max-width: 543px) {
+    .u-hidden-xs-up {
+        display: none !important;
+    }
 }
 
 @media (min-width: 544px) {
@@ -71,8 +73,10 @@
     }
 }
 
-.u-hidden-xl-down {
-    display: none !important;
+@media (min-width: 1200px) {
+    .u-hidden-xl-down {
+        display: none !important;
+    }
 }
 
 /*# sourceMappingURL=u-responsive.css.map */
