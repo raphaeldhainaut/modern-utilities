@@ -1542,31 +1542,60 @@
 
 /* Position
    ========================================================================== */
-.u-position-left,
-.u-position-right,
-.u-position-top,
-.u-position-bottom {
-    position: absolute !important;
+.u-left-0 {
+    left: 0 !important;
 }
 
-.u-position-left {
-    left: 0 !important;
+.u-right-0 {
+    right: 0 !important;
+}
+
+.u-top-0 {
+    top: 0 !important;
+}
+
+.u-bottom-0 {
+    bottom: 0 !important;
+}
+
+.u-left-auto {
     right: auto !important;
 }
 
-.u-position-right {
-    right: 0 !important;
+.u-right-auto {
     left: auto !important;
 }
 
-.u-position-top {
-    top: 0 !important;
+.u-top-auto {
     bottom: auto !important;
 }
 
-.u-position-bottom {
-    bottom: 0 !important;
+.u-bottom-auto {
     top: auto !important;
+}
+
+/* Absolute Position
+   ========================================================================== */
+.u-position-absolute {
+    position: absolute !important;
+}
+
+/* Relative Position
+   ========================================================================== */
+.u-position-relative {
+    position: relative !important;
+}
+
+/* Fixed Position
+   ========================================================================== */
+.u-position-fixed {
+    position: fixed !important;
+}
+
+/* Sticky Position
+   ========================================================================== */
+.u-position-sticky {
+    position: sticky !important;
 }
 
 /* Float
@@ -1713,17 +1742,17 @@
 
 /* Horizontal alignement
    ========================================================================== */
-.u-left {
+.u-align-left {
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
-.u-center {
+.u-align-center {
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
-.u-right {
+.u-align-right {
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -2552,6 +2581,7 @@
 
 .u-list-unstyled {
     list-style-type: none !important;
+    list-style-image: none !important;
 }
 
 .u-list-inline::after {
