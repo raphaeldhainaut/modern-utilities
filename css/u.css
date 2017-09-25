@@ -1559,19 +1559,19 @@
 }
 
 .u-left-auto {
-    right: auto !important;
-}
-
-.u-right-auto {
     left: auto !important;
 }
 
+.u-right-auto {
+    right: auto !important;
+}
+
 .u-top-auto {
-    bottom: auto !important;
+    top: auto !important;
 }
 
 .u-bottom-auto {
-    top: auto !important;
+    bottom: auto !important;
 }
 
 /* Absolute Position
